@@ -6,11 +6,6 @@ const backendInfo = {
   port: 3010,
 }
 
-const path = require('path')
-const paths = {
-  shared: path.join(__dirname, '../shared'),
-}
-
 module.exports = {
   // Global page headers: https://go.nuxtjs.dev/config-head
   srcDir: 'src',
@@ -79,14 +74,6 @@ module.exports = {
         },
       },
     },
-  },
-  resolve: {
-    alias: {
-      '@shared': path.resolve(paths.shared),
-    },
-  },
-  alias: {
-    '@shared': path.resolve(paths.shared),
   },
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
