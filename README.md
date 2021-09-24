@@ -1,7 +1,7 @@
 # devcontainer-nuxtjs-express-share-typescript-example
 
 # Overview
-This project uses the devcontainer feature to implement frontend and backend typescript sharing, declare merging, and typescript nodejs debugging.
+This project uses the devcontainer feature to implement frontend and backend typescript sharing, declare merging, and typescript nodejs debugging.  
 This repository is a simple implementation of the parts that are easy to trip over when building a typescript environment.  
 I will leave this for my own development in the future.
 
