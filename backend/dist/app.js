@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var express = require('express');
+var setupMIddleware_1 = require("./setup/setupMIddleware");
+var setupRouter_1 = require("./setup/setupRouter");
+var setupServer_1 = require("./setup/setupServer");
+var app = express();
+(0, setupMIddleware_1.setupMiddleware)(app);
+(0, setupRouter_1.setupRouter)(app);
+(0, setupServer_1.setupServer)(app);

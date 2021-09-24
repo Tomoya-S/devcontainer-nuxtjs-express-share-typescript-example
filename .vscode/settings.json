@@ -1,0 +1,8 @@
+{
+  "editor.formatOnSave": true,
+  "extensions.ignoreRecommendations": false,
+  "css.validate": false,
+  "scss.validate": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.bracketPairColorization.enabled": true
+}

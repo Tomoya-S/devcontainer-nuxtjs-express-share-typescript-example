@@ -1,0 +1,21 @@
+{
+  "name": "frontend",
+  "dockerComposeFile": ["../../docker-compose.frontend.yml"],
+  "service": "frontend",
+  "runServices": ["frontend"],
+  "settings": {
+    "editor.formatOnSave": true,
+    "extensions.ignoreRecommendations": false,
+    "css.validate": false,
+    "scss.validate": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.bracketPairColorization.enabled": true
+  },
+  "extensions": [
+    "octref.vetur",
+    "pkief.material-icon-theme",
+    "esbenp.prettier-vscode"
+  ],
+  "shutdownAction": "none",
+  "workspaceFolder": "/vscode/frontend/frontend.code-workspace"
+}

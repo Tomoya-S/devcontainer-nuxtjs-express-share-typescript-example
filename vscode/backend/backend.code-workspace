@@ -1,0 +1,31 @@
+{
+  "folders": [
+    {
+      "name": "backend",
+      "path": "/workspace/backend"
+    },
+    {
+      "name": "shared",
+      "path": "/workspace/shared"
+    }
+  ],
+  "settings": {},
+  "extensions": {},
+  "launch": {
+    "configurations": [
+      {
+        "type": "pwa-node",
+        "request": "launch",
+        "name": "Launch Typescript Server",
+        "runtimeExecutable": "npm",
+        "runtimeArgs": ["run-script", "debug"],
+        "stopOnEntry": true,
+        "port": 9000,
+        "sourceMaps": true,
+        "cwd": "${workspaceRoot:backend}",
+        "outputCapture": "std"
+      }
+    ],
+    "compounds": []
+  }
+}

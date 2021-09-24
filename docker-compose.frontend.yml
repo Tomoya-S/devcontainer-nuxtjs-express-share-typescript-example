@@ -1,0 +1,25 @@
+version: "3"
+volumes:
+  vl:
+    driver: "local"
+networks:
+  share_network:
+# Blank Line
+services:
+  frontend:
+    container_name: "frontend"
+    build:
+      context: ./
+      dockerfile: ./.devcontainer/frontend/Dockerfile
+    ports:
+      - 3000:3000
+    environment:
+      - HOST=0.0.0.0
+      - PORT=3000
+    volumes:
+      - ./:/workspace:cached
+      - ./vscode:/vscode:cached
+      - /workspace/frontend/node_modules
+    tty: true
+    networks:
+      - share_network

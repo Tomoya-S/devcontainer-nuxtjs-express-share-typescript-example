@@ -1,0 +1,17 @@
+{
+  "name": "backend",
+  "dockerComposeFile": ["../../docker-compose.backend.yml"],
+  "service": "backend",
+  "runServices": ["backend"],
+  "settings": {
+    "editor.formatOnSave": true,
+    "extensions.ignoreRecommendations": false,
+    "css.validate": false,
+    "scss.validate": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.bracketPairColorization.enabled": true
+  },
+  "extensions": ["pkief.material-icon-theme", "esbenp.prettier-vscode"],
+  "shutdownAction": "none",
+  "workspaceFolder": "/vscode/backend/backend.code-workspace"
+}

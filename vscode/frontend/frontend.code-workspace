@@ -1,0 +1,18 @@
+{
+  "folders": [
+    {
+      "name": "frontend",
+      "path": "/workspace/frontend"
+    },
+    {
+      "name": "shared",
+      "path": "/workspace/shared"
+    }
+  ],
+  "settings": {},
+  "extensions": {},
+  "launch": {
+    "configurations": [],
+    "compounds": []
+  }
+}
